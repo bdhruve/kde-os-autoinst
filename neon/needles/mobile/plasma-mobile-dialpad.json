@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "height": 83.66666666666686,
+      "match": 95,
+      "type": "match",
+      "width": 77.33333333333337,
+      "xpos": 648.6666666666666,
+      "ypos": 621.3333333333331
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "plasma-mobile-dialpad",
+    "ENV-DISTRI-neon-mobile"
+  ]
+}

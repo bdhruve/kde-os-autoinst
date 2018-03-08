@@ -1,3 +1,4 @@
+
 # Copyright (C) 2018 Bhavisha Dhruve <bhavishadhruve@gmail.com>
 #
 # This program is free software; you can redistribute it and/or
@@ -21,13 +22,35 @@ use base "basetest";
 use strict;
 use testapi;
 
-sub run {    
+sub run {
     wait_still_screen;
     send_key 'ret';
     
-    assert_screen 'plasma-mobile-start', 30;
+    # wait for plasma-mobile screen to appear.
+    assert_screen 'plasma-mobile-start', 60;
     assert_and_click 'plasma-mobile-app';
+
+    # wait for phone application to start
+    # here we open the History and Dialpad options.
     assert_screen 'plasma-mobile-dialer', 300;
+    assert_and_click 'plasma-mobile-dialpad';
+    assert_screen 'plasma-mobile-opendial',300;
+
+    # Closes the phone application and back to
+    # the plasma-mobile screen page.
+    assert_and_click 'plasma-mobile-closedial';
+
+    # Starting here the kirigami gallery
+    assert_and_click 'plasma-mobile-searchbar';
+    type_string 'gallery';
+    send_key 'tab';
+    assert_and_click 'plasma-mobile-selectbar';
+
+    assert_and_click 'plasma-mobile-gallerybut';
+
+    # Closes the kirigami application
+    # back to the plasma-mobile screen.
+    assert_and_click 'plasma-mobile-closegallery';
     
 }
 

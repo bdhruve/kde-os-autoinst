@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "height": 406.3333333333333,
+      "match": 95,
+      "type": "match",
+      "width": 714.6666666666666,
+      "xpos": 148.66666666666663,
+      "ypos": 170
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "plasma-mobile-opendial",
+    "ENV-DISTRI-neon-mobile"
+  ]
+}
