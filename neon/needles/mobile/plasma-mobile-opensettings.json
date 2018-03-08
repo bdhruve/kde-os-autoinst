@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "height": 64,
+      "match": 95,
+      "type": "match",
+      "width": 1022.6666666666666,
+      "xpos": 1.3333333333333428,
+      "ypos": 101.66666666666663
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "plasma-mobile-opensettings",
+    "ENV-DISTRI-neon-mobile"
+  ]
+}
