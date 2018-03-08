@@ -1,0 +1,17 @@
+{
+  "area": [
+    {
+      "height": 648.9999999999999,
+      "match": 95,
+      "type": "match",
+      "width": 1024,
+      "xpos": 0,
+      "ypos": 58.666666666666714
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "plasma-mobile-kokoscreen",
+    "ENV-DISTRI-neon-mobile"
+  ]
+}
